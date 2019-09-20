@@ -1,0 +1,167 @@
+<DOCTYPE! html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width:device-width, initial-scale=1">
+
+<style>
+
+h1{
+color:white;
+font-size: 30px;
+}
+
+h2{
+color:grey;
+font-size: 20px;
+}
+
+.flex-container{
+ display: flex:
+ text-wrap: wrap;
+ flex-flow: row-wrap;
+
+}
+
+.flex-container > div{
+background-image:url("Gallery/fb2.jpg");
+text-align: center;
+padding: 30px 45px;
+font-weight: 500;
+height: calc(70% - 20px);
+}
+
+
+.flex-container > div2{
+background-image:url("im.jpg");
+padding: 30px 45px;
+text-align: center;
+height: calc(50% - 20px);
+}
+
+
+.flex-container a{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0px 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 2px;
+
+}
+
+
+.flex-container a:hover{
+color: blue;
+border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.btn1{
+background-image:url("");
+background-color:grey;
+padding:5px;
+color:white;
+color:white;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+20% {background-image:url("Gallery/fb2.jpg");}
+40% {background-image:url("Gallery/fb3.jpg");}
+60% {background-image:url("Gallery/fb.jpg");}
+80% {background-image:url("Gallery/pic2.jpg");}
+100%{background-image:url("Gallery/pic3.jpg");}
+ 
+}
+
+
+
+.btn2{
+background-image:url("Gallery/pic.jpg");
+background-color:grey;
+padding:5px;
+color:white;
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.right{
+float: right;
+}
+
+.left{
+float: left;
+height: 25px;
+}
+
+img{
+height: 50%;
+width: 70%;
+}
+
+.h{
+border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="flex-container">
+
+<div class="a">
+<a class="left"><img src="Gallery/pic.png" class="left"><br>Us3r04</a>
+<a class="right" href="LOGIN.html">Login</a>
+
+<a class="h" href="home.html">HOME</a>
+<a href="SERV.html">ABOUT US</a>
+<a href="contacts.html">CONTACTS</a>
+
+<br><br><br><br>
+<br><br>
+
+
+<h1>WELCOME IN!</h1>
+
+<p style="color:white;">Welcome to MIMI'S online web platform.<br> "BEYOND WASH..." </p>
+
+<br><br>
+<button type="submit" class="btn1">LOGIN</button>  <button type="submit" class="btn2">SIGN UP</input>
+
+</div>
+
+
+<div2>
+
+<center>
+
+<h2><u>GALLERIA</u></h2>
+
+<img src="Gallery/fb.jpg">
+</center>
+
+<br>
+<h2>MIMI'S WEB</h2>
+<p style="color:grey; font-size:12px;">Powered by d3ad-s3c</p>
+
+</div2>
+
+</div>
+</body>
+
+</html>

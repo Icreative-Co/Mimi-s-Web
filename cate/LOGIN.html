@@ -1,0 +1,117 @@
+<?php
+
+$session_start
+
+?>
+
+<DOCTYPE html!>
+<html>
+
+<title>websites</title>
+
+<head>
+
+<style>
+
+html{
+background-image:url("Gallery/img28.jpg");
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-position:center;
+}
+
+body{
+background-color:grey;
+text-align:center;
+margin:120px 450px 120px 450px;
+opacity: 0.7;
+filter: alpha(opacity=80);
+border-radius:25px;
+font-weight: 100;
+}
+
+
+h1{
+color:white;
+font-weight: bold;
+}
+
+
+.avatar{
+width:120px;
+height:120px;
+border-radius:50px;
+}
+
+.top button:hover{
+background-color:blue;
+}
+
+
+.btn {
+border-radius:500px;
+background-color: purple;
+width:180px;
+}  
+
+input{
+border-top: 1px solid grey;
+border-left: 1px solid grey;
+border-right: 1px solid grey;
+border-bottom: 1px solid black;
+background-color: none;
+opacity: 0.9;
+background-color: grey;
+}
+
+label{
+color: white;
+font-size: 12px;
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1><b>Welcome Back!</></b></h1>
+<br>
+
+<form action="action_page.html" method="post">
+
+<div class="imgcontainer">
+<img src="Gallery/pic2.jpg" class="avatar">
+</div>
+
+<br>
+
+
+<label for="user">Username</label><br>
+<input type="text" placeholder="Enter Username" name="user" autocomplete>
+
+<br><br>
+
+<label for="pass">Password</label><br>
+<input type="password" pattern=".{6, }" title="six characters long" placeholder="Enter password" name="pass" required>
+
+<br><br><br>
+
+
+<button type="submit" class="btn">Login</button> 
+<script>btn.onclick(alert("Welcome again"))</script>
+
+
+<br>
+<br>
+
+<a href="#">Forgot Password</a> <br>
+<a href="signup.html">Dont have an account ?</a> 
+
+</div>
+
+
+</body>
+</html>

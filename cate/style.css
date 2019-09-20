@@ -1,0 +1,393 @@
+<style>
+
+@media only screen and (max-width: 300px;) {
+
+text {font-size: 14px}
+
+}
+
+
+html{
+background:url(paper.gif);
+background-color:white;
+backround-repeat: repeat;
+background-attachment:fixed;
+}
+
+
+
+body{
+
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+backround-repeat: no-repeat;
+
+}
+
+
+
+
+.nav{
+
+background-color: skyblue;
+color: snow;
+overflow:hidden;
+text-align:center;
+font-size:10;
+
+}
+
+
+
+
+
+
+.topnav {
+background-color:;
+background-image:url("Gallery/img28.jpg");
+overflow: hidden;
+padding-down:10px;
+margin-down:1px;
+
+}
+
+
+
+
+.topnav a{
+
+float:left;
+color:snow;
+text-align: center;
+padding: 5px;
+text-decoration: none;
+font-size: 18px;
+font-family:gabriola;
+padding-right: 22px;
+
+
+}
+
+
+
+
+
+.topnav a:hover {
+
+background-color:clear;
+color: blue;
+
+}
+
+
+
+
+
+.right{
+
+
+float:right;
+border-radius: 40px;
+height: 30px;
+width: 30px;
+padding: 0px;
+
+
+}
+
+
+
+
+
+.left{
+
+
+float:left;
+width: 70%;
+height: 7%;
+background-image:url("Gallery/pic1.jpg");
+
+
+}
+
+
+
+
+
+
+.logo{
+
+
+background-color:black;
+color:snow;
+text-align:center;
+font-size:7px;
+overflow:hidden;
+
+
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+
+
+
+
+.sub {
+
+
+background-image:url("Gallery/img28.jpg");
+background-color:clear;
+color:grey;
+opacity: 0.8;
+
+
+}
+
+
+
+
+
+
+
+.sub:hover {
+
+
+backround-image:url("Gallery/img28.jpg");
+color:blue;
+
+
+}
+
+
+
+
+.img{
+
+
+height:300px;
+width:1024px;
+margin-left:0px;
+
+
+}
+
+
+
+
+.flex-container{
+
+
+flex-wrap: wrap;
+background-color: snow;
+
+
+}
+
+
+
+.flex-container > div{
+
+
+ background-color: snow;
+ margin : 70px;
+ text-align: center;
+ line-height: 50px;
+ font-size: 10px;
+ color:skyblue;
+
+
+}
+
+
+
+
+
+
+.flex-container p{
+
+
+color:grey;
+
+
+}
+
+
+
+.pic{
+
+
+height:400px;
+width:80%;
+
+
+}
+
+
+
+.flex-container button{
+
+background-image:url("Gallery/pic1.jpg");
+padding:10px;
+color:snow;
+
+}
+
+
+
+
+
+
+.flex-container button:hover{
+
+background-image:url("Gallery/pic2.jpg");
+color:skyblue;
+
+}
+
+
+
+
+
+
+.footer{
+
+background-image:url("Gallery/img28.jpg");
+background-color:grey;
+padding:20px;
+overflow: auto;
+color: grey;
+margin-bottom: 0;
+
+}
+
+
+
+
+
+
+.downnav a{
+
+color:snow;
+font-size:9px;
+text-align:center;
+padding: 150px 150px 2px 160px;
+text-decoration: none;
+font-family:terminal;
+
+}
+
+
+
+
+
+.down{
+
+column-count:4;
+text-align:center;
+height:28%;
+column-gap:20px;
+
+}
+
+
+
+
+
+.down h1{
+
+text-decoration: italics;
+font-size:15px;
+font-weight: bold;
+color: skyblue;
+
+}
+
+
+
+
+
+.down p{
+
+font-size:12px;
+color:grey;
+
+}
+
+
+
+
+
+.yes{
+
+margin-left: 647px;
+
+}
+
+
+
+
+
+
+.form-control{
+
+width: 130px;
+
+}
+
+.dropbtn  {
+color:white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+
+}
+
+.dropdown{
+position: realative;
+display: inline-block;
+
+}
+
+.dropdown-content a{
+display: none;
+position: absolute;
+background-color: grey;
+min-width: 160px;
+padding: 12px 16px;
+z-index: 1;
+
+}
+
+
+.dropdown:hover .dropdown-content:
+
+select{
+
+background-color: black;
+
+}
+
+</style>
